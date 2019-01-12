@@ -2,7 +2,7 @@
 function getQuestionResult($idusers, $idqueries)
 {
     global $dbh;
-    $query = "select nbattempts, success from results where fkuser=$idusers and fkqueries=$idqueries";
+    $query = "select nbattempts, success from sqlt_results where fkuser=$idusers and fkqueries=$idqueries";
     $sel = $dbh->query($query);
     if ($sel->rowCount() == 0)
         return 'white';
@@ -32,12 +32,12 @@ try
 }
 
 // Load questions
-$query = "select idqueries, questionnumber, formulation from queries order by questionnumber";
+$query = "select idqueries, questionnumber, formulation from sqlt_queries order by questionnumber";
 $sel = $dbh->query($query);
 $questions = $sel->fetchAll();
 
 // Load users
-$query = "select idusers, firstname, lastname from users order by lastname";
+$query = "select idusers, firstname, lastname from sqlt_users order by lastname";
 $sel = $dbh->query($query);
 $users = $sel->fetchAll();
 
