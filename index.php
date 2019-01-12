@@ -2,7 +2,7 @@
 function getQuestionResult($idusers, $idqueries)
 {
     global $dbh;
-    $query = "select nbattempts, success from results where fkuser=$idusers and fkqueries=$idqueries";
+    $query = "select nbattempts, success from sqlt_results where fkuser=$idusers and fkqueries=$idqueries";
     $sel = $dbh->query($query);
     if ($sel->rowCount() == 0)
         return 'white';
@@ -39,7 +39,7 @@ error_log(">>>>>>>>>>SQLTester, received $response from " . $_SERVER['HTTP_REFER
 if (is_numeric($id) and is_numeric($question)) // process response attempt
 {
     // Fetch the student
-    $query = "select idusers from users where intranetid = $id";
+    $query = "select idusers from sqlt_users where intranetid = $id";
     $sel = $dbh->query($query);
     if ($sel->rowCount() == 0)
         $message = "Personne inconnue";
@@ -49,7 +49,7 @@ if (is_numeric($id) and is_numeric($question)) // process response attempt
         extract($res); // $idusers
 
         // Fetch the correct query from the database
-        $query = "select idqueries, statement from queries where questionnumber = $question";
+        $query = "select idqueries, statement from sqlt_queries where questionnumber = $question";
         $sel = $dbh->query($query);
         if ($sel->rowCount() == 0)
             $message = "Question inconnue";
@@ -61,16 +61,16 @@ if (is_numeric($id) and is_numeric($question)) // process response attempt
             // make sure we have a record to register answer
             try
             {
-                $dbh->query("insert into results(fkuser,fkqueries) values ($idusers,$idqueries)"); // will fail if record already exists
+                $dbh->query("insert into sqlt_results(fkuser,fkqueries) values ($idusers,$idqueries)"); // will fail if record already exists
             } catch (PDOException $e)
             {
             }
             // get recid
-            $sel = $dbh->query("select idresults, nbattempts from results where fkuser=$idusers and fkqueries=$idqueries");
+            $sel = $dbh->query("select idresults, nbattempts from sqlt_results where fkuser=$idusers and fkqueries=$idqueries");
             $res = $sel->fetch();
             extract($res); // $idresults
             // count attempt
-            $dbh->query("update results set nbattempts=nbattempts+1 where idresults=$idresults");
+            $dbh->query("update sqlt_results set nbattempts=nbattempts+1 where idresults=$idresults");
             try
             {
                 // what are the results of the query proposed by the student
@@ -80,11 +80,11 @@ if (is_numeric($id) and is_numeric($question)) // process response attempt
                 // Now see the results of that query
                 $correct = $dbh->query($statement);
                 $res = $correct->fetchall();
-                //error_log(print_r($val, true));
-                //error_log(print_r($res, true));
+                error_log("Submitted:" . print_r($val, true));
+                error_log("Expected:" . print_r($res, true));
                 if (strcmp(print_r($val, true), print_r($res, true)) == 0)
                 {
-                    $dbh->query("update results set success=success+1 where idresults=$idresults");
+                    $dbh->query("update sqlt_results set success=success+1 where idresults=$idresults");
                     $message = "Juste !!";
                 } else
                 {
@@ -119,12 +119,12 @@ if (is_numeric($id) and is_numeric($question)) // process response attempt
 }
 
 // Load questions
-$query = "select idqueries, questionnumber, formulation from queries order by questionnumber";
+$query = "select idqueries, questionnumber, formulation from sqlt_queries order by questionnumber";
 $sel = $dbh->query($query);
 $questions = $sel->fetchAll();
 
 // Load users
-$query = "select idusers, firstname, lastname from users order by lastname";
+$query = "select idusers, firstname, lastname from sqlt_users order by lastname";
 $sel = $dbh->query($query);
 $users = $sel->fetchAll();
 

@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f758a821-dc20-4ddd-a447-169c341cbdaa" name="Default" comment="" />
+    <list default="true" id="f758a821-dc20-4ddd-a447-169c341cbdaa" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questions Intralogs - corrigé.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questions Intralogs - corrigé.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questions joutes - corrigé.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Questions joutes - corrigé.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-singletable.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multitable-data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/multitable-questions.sql" beforeDir="false" />
+    </list>
     <ignored path="SQLTester.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -15,7 +27,6 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="SQLTester" />
   </component>
@@ -24,29 +35,11 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="36" column="95" selection-start-line="36" selection-start-column="95" selection-end-line="36" selection-end-column="95" />
+            <state relative-caret-position="358">
+              <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
               <folding>
-                <marker date="1487319608000" expanded="true" signature="88:141" ph="select nbatt... results" />
-                <marker date="1487319608000" expanded="true" signature="88:142" ph="select nbatt... results" />
-                <marker date="1487319608000" expanded="true" signature="88:164" ph="select nbatt... results" />
-                <marker date="1487319608000" expanded="true" signature="88:165" ph="select nbatt... results" />
-                <marker date="1487319608000" expanded="true" signature="1181:1226" ph="select iduse... users" />
-                <marker date="1487319608000" expanded="true" signature="1487:1551" ph="select state... queries" />
-                <marker date="1487319608000" expanded="true" signature="1909:1975" ph="insert into results... " />
-                <marker date="1487319608000" expanded="true" signature="2140:2195" ph="select idres... results" />
-                <marker date="1487319608000" expanded="true" signature="2140:2196" ph="select idres... results" />
-                <marker date="1487319608000" expanded="true" signature="2140:2218" ph="select idres... results" />
-                <marker date="1487319608000" expanded="true" signature="2140:2219" ph="select idres... results" />
-                <marker date="1487319608000" expanded="true" signature="2361:2420" ph="update resul... " />
-                <marker date="1487319608000" expanded="true" signature="2361:2421" ph="update resul... " />
-                <marker date="1487319608000" expanded="true" signature="3006:3025" ph="update resul... " />
-                <marker date="1487319608000" expanded="true" signature="3006:3059" ph="update resul... " />
-                <marker date="1487319608000" expanded="true" signature="3333:3347" ph="..." />
-                <marker date="1487319608000" expanded="true" signature="4360:4442" ph="select idque... queries" />
-                <marker date="1487319608000" expanded="true" signature="4529:4593" ph="select iduse... users" />
-                <marker date="1487319608000" expanded="true" signature="4888:5221" ph="..." />
-                <marker date="1487319608000" expanded="true" signature="6609:6615" ph=" " />
+                <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+                <element signature="e#1#7#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,17 +49,28 @@
         <entry file="file://$PROJECT_DIR$/results.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="870">
-              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-              <folding>
-                <marker date="1487319469000" expanded="true" signature="88:164" ph="select nbatt... results" />
-                <marker date="1487319469000" expanded="true" signature="897:979" ph="select idque... queries" />
-                <marker date="1487319469000" expanded="true" signature="1066:1130" ph="select iduse... users" />
-              </folding>
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>queries</find>
+      <find>results</find>
+      <find>users</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>sqlt_</replace>
+      <replace>sqlt_queries</replace>
+      <replace>sqlt_results</replace>
+      <replace>sqlt_users</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -84,62 +88,26 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.6" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-72" />
+    <option name="y" value="-984" />
     <option name="width" value="1436" />
     <option name="height" value="877" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SQLTester" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SQLTester" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SQLTester" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -153,6 +121,18 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -220,35 +200,41 @@
       <workItem from="1487258101858" duration="1894000" />
       <workItem from="1487274978879" duration="1328000" />
       <workItem from="1487666767269" duration="8000" />
+      <workItem from="1547295544604" duration="928000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20116000" />
+    <option name="totallyTimeSpent" value="21044000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-77" y="-978" width="1436" height="877" extended-state="0" />
-    <editor active="false" />
+    <frame x="-72" y="-984" width="1436" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23888092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24246772" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -265,34 +251,15 @@
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="540">
+          <caret line="36" column="95" selection-start-line="36" selection-start-column="95" selection-end-line="36" selection-end-column="95" />
           <folding>
-            <marker date="1487319608000" expanded="true" signature="88:141" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:142" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:164" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:165" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="1181:1226" ph="select iduse... users" />
-            <marker date="1487319608000" expanded="true" signature="1487:1551" ph="select state... queries" />
-            <marker date="1487319608000" expanded="true" signature="1909:1975" ph="insert into results... " />
-            <marker date="1487319608000" expanded="true" signature="2140:2195" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2196" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2218" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2219" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2361:2420" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="2361:2421" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3006:3025" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3006:3059" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3333:3347" ph="..." />
-            <marker date="1487319608000" expanded="true" signature="4360:4442" ph="select idque... queries" />
-            <marker date="1487319608000" expanded="true" signature="4529:4593" ph="select iduse... users" />
-            <marker date="1487319608000" expanded="true" signature="4888:5221" ph="..." />
-            <marker date="1487319608000" expanded="true" signature="6609:6615" ph=" " />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#1#7#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -300,156 +267,73 @@
     <entry file="file://$PROJECT_DIR$/results.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <marker date="1487319469000" expanded="true" signature="88:164" ph="select nbatt... results" />
-            <marker date="1487319469000" expanded="true" signature="897:979" ph="select idque... queries" />
-            <marker date="1487319469000" expanded="true" signature="1066:1130" ph="select iduse... users" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#1#7#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#1#7#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
-            <marker date="1487319608000" expanded="true" signature="88:141" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:142" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:164" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:165" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="1181:1226" ph="select iduse... users" />
-            <marker date="1487319608000" expanded="true" signature="1487:1551" ph="select state... queries" />
-            <marker date="1487319608000" expanded="true" signature="1909:1975" ph="insert into results... " />
-            <marker date="1487319608000" expanded="true" signature="2140:2195" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2196" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2218" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2219" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2361:2420" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="2361:2421" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3006:3025" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3006:3059" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3333:3347" ph="..." />
-            <marker date="1487319608000" expanded="true" signature="4360:4442" ph="select idque... queries" />
-            <marker date="1487319608000" expanded="true" signature="4529:4593" ph="select iduse... users" />
-            <marker date="1487319608000" expanded="true" signature="4888:5221" ph="..." />
-            <marker date="1487319608000" expanded="true" signature="6609:6615" ph=" " />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#1#7#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
-            <marker date="1487319608000" expanded="true" signature="88:141" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:142" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:164" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:165" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="1181:1226" ph="select iduse... users" />
-            <marker date="1487319608000" expanded="true" signature="1487:1551" ph="select state... queries" />
-            <marker date="1487319608000" expanded="true" signature="1909:1975" ph="insert into results... " />
-            <marker date="1487319608000" expanded="true" signature="2140:2195" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2196" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2218" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2219" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2361:2420" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="2361:2421" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3006:3025" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3006:3059" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3333:3347" ph="..." />
-            <marker date="1487319608000" expanded="true" signature="4360:4442" ph="select idque... queries" />
-            <marker date="1487319608000" expanded="true" signature="4529:4593" ph="select iduse... users" />
-            <marker date="1487319608000" expanded="true" signature="4888:5221" ph="..." />
-            <marker date="1487319608000" expanded="true" signature="6609:6615" ph=" " />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#1#7#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
-            <marker date="1487319608000" expanded="true" signature="88:141" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:142" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:164" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:165" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="1181:1226" ph="select iduse... users" />
-            <marker date="1487319608000" expanded="true" signature="1487:1551" ph="select state... queries" />
-            <marker date="1487319608000" expanded="true" signature="1909:1975" ph="insert into results... " />
-            <marker date="1487319608000" expanded="true" signature="2140:2195" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2196" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2218" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2219" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2361:2420" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="2361:2421" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3006:3025" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3006:3059" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3333:3347" ph="..." />
-            <marker date="1487319608000" expanded="true" signature="4360:4442" ph="select idque... queries" />
-            <marker date="1487319608000" expanded="true" signature="4529:4593" ph="select iduse... users" />
-            <marker date="1487319608000" expanded="true" signature="4888:5221" ph="..." />
-            <marker date="1487319608000" expanded="true" signature="6609:6615" ph=" " />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#1#7#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
-            <marker date="1487319608000" expanded="true" signature="88:141" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:142" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:164" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:165" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="1181:1226" ph="select iduse... users" />
-            <marker date="1487319608000" expanded="true" signature="1487:1551" ph="select state... queries" />
-            <marker date="1487319608000" expanded="true" signature="1909:1975" ph="insert into results... " />
-            <marker date="1487319608000" expanded="true" signature="2140:2195" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2196" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2218" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2219" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2361:2420" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="2361:2421" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3006:3025" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3006:3059" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3333:3347" ph="..." />
-            <marker date="1487319608000" expanded="true" signature="4360:4442" ph="select idque... queries" />
-            <marker date="1487319608000" expanded="true" signature="4529:4593" ph="select iduse... users" />
-            <marker date="1487319608000" expanded="true" signature="4888:5221" ph="..." />
-            <marker date="1487319608000" expanded="true" signature="6609:6615" ph=" " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1487319608000" expanded="true" signature="88:141" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:142" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:164" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:165" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="1181:1226" ph="select iduse... users" />
-            <marker date="1487319608000" expanded="true" signature="1487:1551" ph="select state... queries" />
-            <marker date="1487319608000" expanded="true" signature="1909:1975" ph="insert into results... " />
-            <marker date="1487319608000" expanded="true" signature="2140:2195" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2196" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2218" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2219" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2361:2420" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="2361:2421" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3006:3025" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3006:3059" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3333:3347" ph="..." />
-            <marker date="1487319608000" expanded="true" signature="4360:4442" ph="select idque... queries" />
-            <marker date="1487319608000" expanded="true" signature="4529:4593" ph="select iduse... users" />
-            <marker date="1487319608000" expanded="true" signature="4888:5221" ph="..." />
-            <marker date="1487319608000" expanded="true" signature="6609:6615" ph=" " />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#1#7#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -460,40 +344,17 @@
     <entry file="file://$PROJECT_DIR$/results.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding>
-            <marker date="1487319469000" expanded="true" signature="88:164" ph="select nbatt... results" />
-            <marker date="1487319469000" expanded="true" signature="897:979" ph="select idque... queries" />
-            <marker date="1487319469000" expanded="true" signature="1066:1130" ph="select iduse... users" />
-          </folding>
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="36" column="95" selection-start-line="36" selection-start-column="95" selection-end-line="36" selection-end-column="95" />
+        <state relative-caret-position="358">
+          <caret line="83" column="40" selection-start-line="83" selection-start-column="40" selection-end-line="83" selection-end-column="40" />
           <folding>
-            <marker date="1487319608000" expanded="true" signature="88:141" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:142" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:164" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="88:165" ph="select nbatt... results" />
-            <marker date="1487319608000" expanded="true" signature="1181:1226" ph="select iduse... users" />
-            <marker date="1487319608000" expanded="true" signature="1487:1551" ph="select state... queries" />
-            <marker date="1487319608000" expanded="true" signature="1909:1975" ph="insert into results... " />
-            <marker date="1487319608000" expanded="true" signature="2140:2195" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2196" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2218" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2140:2219" ph="select idres... results" />
-            <marker date="1487319608000" expanded="true" signature="2361:2420" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="2361:2421" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3006:3025" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3006:3059" ph="update resul... " />
-            <marker date="1487319608000" expanded="true" signature="3333:3347" ph="..." />
-            <marker date="1487319608000" expanded="true" signature="4360:4442" ph="select idque... queries" />
-            <marker date="1487319608000" expanded="true" signature="4529:4593" ph="select iduse... users" />
-            <marker date="1487319608000" expanded="true" signature="4888:5221" ph="..." />
-            <marker date="1487319608000" expanded="true" signature="6609:6615" ph=" " />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#1#7#0" expanded="true" />
           </folding>
         </state>
       </provider>
